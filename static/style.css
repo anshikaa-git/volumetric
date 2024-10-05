@@ -1,0 +1,95 @@
+/* Background styles */
+body {
+    background-image: url('static/cracking-01.jpeg'); 
+    background-size: cover;
+    background-repeat: no-repeat; 
+    font-family: Arial, sans-serif;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container styles */
+.container {
+    max-width: 800px;
+    margin: 100px auto;
+    padding: 100px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* Header styles */
+h1 {
+    color: #ffcb74;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Form input styles */
+label {
+    font-weight: bold;
+    color: #ffcb74;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+input[type="text"], select {
+    width: calc(100% - 22px); /* Adjust for input padding */
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+input[type="text"]::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+input[type="text"]:focus, select:focus {
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Button styles */
+button {
+    background-color: #ff5300;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff7400;
+    transform: scale(1.05);
+}
+
+/* Result styles */
+.result {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.result p {
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+
+header {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    padding: 20px 0;
+}

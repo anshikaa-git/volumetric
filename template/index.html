@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Model Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+        /* Add additional CSS for background and header */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('static/cracking-01.jpeg'); /* Adjust path to your background image */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        header {
+            background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+            padding: 20px 0;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 999; /* Ensure header is on top */
+        }
+        header nav {
+            text-align: center;
+        }
+        header nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        header nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        header nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        header nav ul li a:hover {
+            color: #007bff;
+        }
+        .container {
+            width: 80%;
+            margin: 120px auto 0 auto; /* Adjust top margin for content */
+            text-align: center;
+            padding: 50px;
+            background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+            border-radius: 10px;
+        }
+        h1 {
+            color: #333;
+            font-size: 36px;
+        }
+        p {
+            color: #555;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        footer {
+            background-color: #555; /* Semi-transparent black background */
+            color: #ffe434;
+            padding:0cap;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        select {
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 5px;
+            border: 1px solid #ffaf1a;
+            background-color: #555; /* Change the background color here */
+        }
+
+        select {
+        padding: 10px;
+        font-size: 16px;
+        border-radius: 5px;
+        border: 1px solid #000000;
+        background-color: #555; /* Change the background color here */
+        color: #fff; /* Change the text color of the options */
+        }
+
+        /* Style the options */
+        option {
+            color: #333; /* Change the text color of the options */
+            background-color: #fff; /* Change the background color of the options */
+        }
+        label {
+            font-size: 18px;
+            color: #555;
+            margin-bottom: 10px;
+            display: inline-block;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/faq">FAQ</a></li>
+                <li><a href="/useful-information">Useful Information</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <h1>Calculate </h1>
+        <!-- <p>Select a Test below to continue.</p> -->
+        <form action="/" method="post">
+            <label for="model_select"> TEST:</label>
+            
+                <h1> Volumetrics</h1>
+                <!-- <option value="model2">Permanent Strain </option>
+                <option value="model3" || value="model4"> ITS Dry, ITS Wet And TSR  </option> -->
+                
+            </select><br><br>
+            <button type="submit">Continue</button>
+        </form>
+    </div>
+    <footer>
+        <h5>&copy; Hamare Lab Me Apka Swagat hai 😊</h5>
+    </footer>
+</body>
+</html>
